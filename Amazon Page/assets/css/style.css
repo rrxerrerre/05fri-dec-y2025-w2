@@ -77,12 +77,12 @@ li {
 }
 .cards-box {
   background-color: white;
-  margin: 20px;
+  margin: 30px;
 }
 .cards-box img {
   max-width: 22%;
   height: 400px;
-  width: 300px;
+  width: 350px;
   object-fit: cover;
   border-radius: 20px;
   margin-inline: auto;
@@ -94,6 +94,7 @@ li {
 
 .p-cards {
   text-align: left;
+  padding: 15px;
   margin-left: 20px;
 }
 .visor-img {
