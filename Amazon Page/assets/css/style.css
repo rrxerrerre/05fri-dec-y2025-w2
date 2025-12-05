@@ -19,6 +19,7 @@ p {
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
 }
 
 .logo {
@@ -53,7 +54,7 @@ li {
 .orange p {
   color: white;
 }
-.gift-guides {
+.holiday-gift-guides {
   background-image: url(../images/bg-image.png);
   background-size: 80%;
   background-repeat: repeat;
@@ -62,7 +63,7 @@ li {
   text-align: center;
   background-position: center;
 }
-.gift-guides h1 {
+.holiday-gift-guidesh1 {
   margin-bottom: 20px;
   color: white;
 }
@@ -74,16 +75,26 @@ li {
 .shop-now {
   color: #135668;
 }
+.cards-box {
+  background-color: white;
+  margin: 20px;
+}
+.cards-box img {
+  max-width: 22%;
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-inline: auto;
+  margin: 1%;
+}
+.img-card {
+  box-shadow: 39px 18px 64px 55px rgba(0, 0, 0, 0.1);
+}
+
 .p-cards {
   text-align: left;
   margin-left: 20px;
-}
-.cards img {
-  display: inline-block;
-  max-width: 24%;
-  height: 600px;
-  object-fit: cover;
-  border-radius: 20px;
 }
 .visor-img {
   width: 100%;
