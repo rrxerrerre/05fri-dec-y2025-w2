@@ -1,0 +1,94 @@
+/* Your styles here */
+
+* {
+  box-sizing: border-box;
+  padding-left: 0;
+  margin: 0;
+}
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: black;
+}
+.logo {
+  background-color: #222f3f;
+  padding: 20px;
+}
+.logo img {
+  width: 150px;
+}
+
+ul {
+  background-color: #364759;
+}
+li {
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+  font-size: 18px;
+  margin-left: 19px;
+}
+.orange {
+  text-align: center;
+  font-size: 18px;
+  background-color: #f56600;
+
+  margin: 40px;
+  padding: 10px;
+}
+.orange p {
+  color: white;
+}
+.gift-guides {
+  background-image: url(../images/bg-image.png);
+  background-size: 80%;
+  background-repeat: repeat;
+  padding: 60px;
+  margin: 40px;
+  text-align: center;
+  background-position: center;
+}
+.gift-guides h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+.gift-guides p {
+  color: white;
+  font-size: 21px;
+}
+
+.cards img {
+  display: inline-block;
+  max-width: 24%;
+  height: 600px;
+  object-fit: cover;
+}
+.visor-img {
+  padding: 0px;
+  margin: 20px;
+}
+.link {
+  color: #135668;
+}
+.back-tt {
+  background-color: #364759;
+  text-align: center;
+}
+.back-text {
+  color: white;
+}
+footer {
+  background-color: #222f3f;
+}
+footer img {
+  width: 150px;
+}
